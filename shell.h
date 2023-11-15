@@ -10,7 +10,7 @@
 #include <sys/wait.h>
 
 void display_prompt(void);
-void mc_fprint(const char *scrivo);
+void mc_fprint(char *scrivo);
 void leggere_domande(char *domande, size_t size);
 void execute_domande(const char *domande);
 int main(void);
