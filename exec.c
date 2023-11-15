@@ -35,3 +35,5 @@ void execute_domande(const char *domande)
 			mc_fprint("Error executing command.\n");
 		exit(EXIT_FAILURE);
 	}
+
+}
