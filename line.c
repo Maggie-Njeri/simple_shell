@@ -1,7 +1,9 @@
 #include "shell.h"
 
 /**
- * main: is used to get the size of buffer
+ * main: is used to get line size of the buffer
+ * it gets the size nd prints it
+ *Return: it returns 0 on success
  * x is the pointer
  */
 

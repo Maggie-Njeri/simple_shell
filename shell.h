@@ -14,5 +14,6 @@ void mc_fprint(char *scrivo);
 void leggere_domande(char *domande, size_t size);
 void execute_domande(const char *domande);
 int main(void);
+int main(int y, char **av);
 
 #endif

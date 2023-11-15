@@ -2,10 +2,11 @@
 
 /**
  * mc_fprint is used to print out the results
- * scrivo: is a pointer to store the results
+ * it is used as a substitute for printf
+ * @scrivo: is a pointer to store the results
  */
 
-void mc_fprint(char *scrivo) 
+void mc_fprint(char *scrivo)
 {
-        write(STDOUT_FILENO, scrivo, strlen(scrivo));
+	write(STDOUT_FILENO, scrivo, strlen(scrivo));
 }

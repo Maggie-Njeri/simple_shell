@@ -2,7 +2,8 @@
 
 /**
  * main - stat example
- *
+ * @y: is the info that is being searched
+ * @av: is the address where the info will be stored
  * Return: Always 0.
  */
 
@@ -18,8 +19,9 @@ int main(int y, char **av)
 	}
 
 	x = 1;
-	while (av[x])
-		    {
+	while
+		(av[x])
+	{
 	    mc_fprint("%s:", av[x]);
 	if (strcat(av[x], &st) == 0)
 	{
