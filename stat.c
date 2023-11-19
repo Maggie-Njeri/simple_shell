@@ -5,7 +5,9 @@
  * @y: is the info that is being searched
  * @av: is the address where the info will be stored
  * Return: Always 0
-int main(int y, char **av)
+ */
+
+ int main(int y, char **av)
 {
 	unsigned int x;
 	struct stat st;
@@ -33,4 +35,4 @@ int main(int y, char **av)
 	}
 	return (0);
 
-}*/
+}
