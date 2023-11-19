@@ -7,7 +7,7 @@
  * Return: Always 0
  */
 
- int main(int y, char **av)
+int main(int y, char **av)
 {
 	unsigned int x;
 	struct stat st;
